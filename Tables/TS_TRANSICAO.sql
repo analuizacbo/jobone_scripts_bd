@@ -1,0 +1,16 @@
+--------------------------------------------------------
+--  DDL for Table TS_TRANSICAO
+--------------------------------------------------------
+
+  CREATE TABLE "TS_TRANSICAO" 
+   (	"TS_TRANSICAO_ID" NUMBER(20,0), 
+	"STATUS_DE" VARCHAR2(20 CHAR), 
+	"COD_ACAO" VARCHAR2(20 CHAR), 
+	"STATUS_PARA" VARCHAR2(20 CHAR), 
+	"DESCRICAO" VARCHAR2(100 CHAR), 
+	"TEXTO_BOTAO" VARCHAR2(60 CHAR), 
+	"FLAG_APROV_EMPRESA" CHAR(1 CHAR), 
+	"FLAG_APROV_USUARIO" CHAR(1 CHAR), 
+	"FLAG_INTERFACE" CHAR(1 CHAR), 
+	"NAVEGACAO" VARCHAR2(20 CHAR)
+   ) ;

@@ -1,0 +1,17 @@
+--------------------------------------------------------
+--  DDL for Table TIPO_APONTAM
+--------------------------------------------------------
+
+  CREATE TABLE "TIPO_APONTAM" 
+   (	"TIPO_APONTAM_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"CODIGO" VARCHAR2(10 CHAR), 
+	"NOME" VARCHAR2(60 CHAR), 
+	"FLAG_SISTEMA" CHAR(1 CHAR), 
+	"FLAG_ATIVO" CHAR(1 CHAR), 
+	"FLAG_AUSENCIA" CHAR(1 CHAR), 
+	"FLAG_FORMULARIO" CHAR(1 CHAR), 
+	"FLAG_AUSENCIA_FULL" CHAR(1 CHAR) DEFAULT 'N', 
+	"GRUPO" VARCHAR2(100 CHAR), 
+	"FLAG_BILLABLE" CHAR(1 CHAR) DEFAULT 'N'
+   ) ;

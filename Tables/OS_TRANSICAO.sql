@@ -1,0 +1,17 @@
+--------------------------------------------------------
+--  DDL for Table OS_TRANSICAO
+--------------------------------------------------------
+
+  CREATE TABLE "OS_TRANSICAO" 
+   (	"OS_TRANSICAO_ID" NUMBER(20,0), 
+	"STATUS_DE" VARCHAR2(20 CHAR), 
+	"COD_ACAO" VARCHAR2(20 CHAR), 
+	"STATUS_PARA" VARCHAR2(20 CHAR), 
+	"DESCRICAO" VARCHAR2(100 CHAR), 
+	"TEXTO_BOTAO" VARCHAR2(60 CHAR), 
+	"NAVEGACAO" VARCHAR2(20 CHAR), 
+	"WORKFLOW" VARCHAR2(20 CHAR), 
+	"COD_ACAO_EVENTO" VARCHAR2(40 CHAR), 
+	"COD_PRIV" VARCHAR2(30 CHAR), 
+	"FLAG_RECUSA" CHAR(1 CHAR) DEFAULT 'N'
+   ) ;

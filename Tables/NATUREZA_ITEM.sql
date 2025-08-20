@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  DDL for Table NATUREZA_ITEM
+--------------------------------------------------------
+
+  CREATE TABLE "NATUREZA_ITEM" 
+   (	"NATUREZA_ITEM_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"CODIGO" VARCHAR2(20 CHAR), 
+	"NOME" VARCHAR2(60 CHAR), 
+	"ORDEM" NUMBER(5,0), 
+	"MOD_CALCULO" VARCHAR2(10 CHAR), 
+	"VALOR_PADRAO" NUMBER(20,6), 
+	"FLAG_INC_A" CHAR(1 CHAR), 
+	"FLAG_INC_B" CHAR(1 CHAR), 
+	"FLAG_INC_C" CHAR(1 CHAR), 
+	"FLAG_SISTEMA" CHAR(1 CHAR), 
+	"FLAG_ATIVO" CHAR(1 CHAR), 
+	"FLAG_VINC_CK_A" CHAR(1 CHAR) DEFAULT 'N', 
+	"TIPO" VARCHAR2(20 CHAR)
+   ) ;

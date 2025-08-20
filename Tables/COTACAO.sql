@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  DDL for Table COTACAO
+--------------------------------------------------------
+
+  CREATE TABLE "COTACAO" 
+   (	"COTACAO_ID" NUMBER(20,0), 
+	"JOB_ID" NUMBER(20,0), 
+	"USUARIO_ID" NUMBER(20,0), 
+	"USUARIO_REPROV_ID" NUMBER(20,0), 
+	"USUARIO_APROV_ID" NUMBER(20,0), 
+	"DATA_HORA" DATE, 
+	"NUMERO" VARCHAR2(20 CHAR), 
+	"INFO_ADICIONAL" VARCHAR2(500 CHAR), 
+	"DATA_PRAZO" DATE, 
+	"STATUS" VARCHAR2(10 CHAR), 
+	"DATA_REPROV" DATE, 
+	"MOTIVO_REPROV" VARCHAR2(100 CHAR), 
+	"COMENT_REPROV" VARCHAR2(500 CHAR), 
+	"DATA_APROV" DATE
+   ) ;

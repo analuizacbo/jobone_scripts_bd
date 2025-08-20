@@ -1,0 +1,21 @@
+--------------------------------------------------------
+--  DDL for Table ADIANT_DESP
+--------------------------------------------------------
+
+  CREATE TABLE "ADIANT_DESP" 
+   (	"ADIANT_DESP_ID" NUMBER(20,0), 
+	"SOLICITANTE_ID" NUMBER(20,0), 
+	"CRIADOR_ID" NUMBER(20,0), 
+	"APROVADOR_ID" NUMBER(20,0), 
+	"JOB_ID" NUMBER(20,0), 
+	"NUM_ADIANT" NUMBER(10,0), 
+	"DATA_ENTRADA" DATE, 
+	"DATA_LIMITE" DATE, 
+	"DATA_APROV" DATE, 
+	"VALOR_SOLICITADO" NUMBER(20,2), 
+	"MOTIVO_ADIANT" VARCHAR2(10 CHAR), 
+	"COMPLEMENTO" VARCHAR2(500 CHAR), 
+	"FORMA_ADIANT_PREF" VARCHAR2(10 CHAR), 
+	"STATUS" VARCHAR2(20 CHAR), 
+	"DATA_STATUS" DATE
+   ) ;

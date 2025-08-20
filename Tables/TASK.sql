@@ -1,0 +1,21 @@
+--------------------------------------------------------
+--  DDL for Table TASK
+--------------------------------------------------------
+
+  CREATE TABLE "TASK" 
+   (	"TASK_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"MILESTONE_ID" NUMBER(20,0), 
+	"PAPEL_RESP_ID" NUMBER(20,0), 
+	"USUARIO_AUTOR_ID" NUMBER(20,0), 
+	"JOB_ID" NUMBER(20,0), 
+	"TIPO_OBJETO_ID" NUMBER(20,0), 
+	"OBJETO_ID" NUMBER(20,0), 
+	"TIPO_TASK" VARCHAR2(20 CHAR), 
+	"DATA_TASK" DATE, 
+	"DESC_CURTA" VARCHAR2(100 CHAR), 
+	"DESC_DETALHADA" VARCHAR2(4000 CHAR), 
+	"PRIORIDADE" CHAR(1 CHAR), 
+	"FLAG_FECHADO" CHAR(1 CHAR), 
+	"COMPL_FECHAM" VARCHAR2(10 CHAR)
+   ) ;

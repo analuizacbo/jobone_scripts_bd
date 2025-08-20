@@ -1,0 +1,19 @@
+--------------------------------------------------------
+--  DDL for Table INTERACAO
+--------------------------------------------------------
+
+  CREATE TABLE "INTERACAO" 
+   (	"INTERACAO_ID" NUMBER(20,0), 
+	"OPORTUNIDADE_ID" NUMBER(20,0), 
+	"USUARIO_RESP_ID" NUMBER(20,0), 
+	"USUARIO_PROX_INT_ID" NUMBER(20,0), 
+	"STATUS_AUX_OPORT_ID" NUMBER(20,0), 
+	"DATA_ENTRADA" DATE, 
+	"DATA_INTERACAO" DATE, 
+	"DESCRICAO" CLOB, 
+	"MEIO_CONTATO" VARCHAR2(5 CHAR), 
+	"PERC_PROB_FECH" NUMBER(5,2), 
+	"DATA_PROV_FECH" DATE, 
+	"DATA_PROX_INT" DATE, 
+	"DESC_PROX_INT" CLOB
+   ) ;

@@ -1,0 +1,22 @@
+--------------------------------------------------------
+--  DDL for Table APONTAM_DATA
+--------------------------------------------------------
+
+  CREATE TABLE "APONTAM_DATA" 
+   (	"APONTAM_DATA_ID" NUMBER(20,0), 
+	"USUARIO_ID" NUMBER(20,0), 
+	"USUARIO_APROV_ID" NUMBER(20,0), 
+	"CARGO_ID" NUMBER(20,0), 
+	"AREA_CARGO_ID" NUMBER(20,0), 
+	"DATA" DATE, 
+	"CUSTO_HORA" NUMBER(32,2), 
+	"VENDA_HORA" NUMBER(32,2), 
+	"NUM_HORAS_DIA" NUMBER(7,2), 
+	"STATUS" VARCHAR2(10 CHAR), 
+	"NIVEL" VARCHAR2(5 CHAR), 
+	"DATA_APONT" DATE, 
+	"DATA_APROV" DATE, 
+	"FLAG_HOME_OFFICE" CHAR(1 CHAR) DEFAULT 'N', 
+	"STATUS_ANTES_ENCE" VARCHAR2(10 CHAR), 
+	"NUM_HORAS_PROD_DIA" NUMBER(7,2)
+   ) ;

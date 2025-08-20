@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  DDL for Table CENARIO_SERVICO_HORAS
+--------------------------------------------------------
+
+  CREATE TABLE "CENARIO_SERVICO_HORAS" 
+   (	"CENARIO_SERVICO_HORAS_ID" NUMBER(20,0), 
+	"CENARIO_SERVICO_ID" NUMBER(20,0), 
+	"AREA_ID" NUMBER(20,0), 
+	"CARGO_ID" NUMBER(20,0), 
+	"NIVEL" VARCHAR2(5 CHAR), 
+	"NOME_ALTERNATIVO" VARCHAR2(100 CHAR), 
+	"HORA_MES" NUMBER(10,2), 
+	"HORAS_TOTAIS" NUMBER(22,2), 
+	"CUSTO_HORA" NUMBER(32,2), 
+	"CUSTO_TOTAL" NUMBER(22,2), 
+	"PRECO_VENDA" NUMBER(22,2), 
+	"PRECO_FINAL" NUMBER(22,2), 
+	"OVERHEAD" NUMBER(22,2), 
+	"CUSTO" NUMBER(22,2)
+   ) ;

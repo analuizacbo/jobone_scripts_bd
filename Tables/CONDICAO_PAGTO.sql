@@ -1,0 +1,19 @@
+--------------------------------------------------------
+--  DDL for Table CONDICAO_PAGTO
+--------------------------------------------------------
+
+  CREATE TABLE "CONDICAO_PAGTO" 
+   (	"CONDICAO_PAGTO_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"CODIGO" VARCHAR2(20 CHAR), 
+	"NOME" VARCHAR2(60 CHAR), 
+	"COD_EXT_CONDICAO" VARCHAR2(20 CHAR), 
+	"DESCRICAO" VARCHAR2(100 CHAR), 
+	"FLAG_ATIVO" CHAR(1 CHAR) DEFAULT 'S', 
+	"TIPO_REGRA" VARCHAR2(5 CHAR), 
+	"SEMANA_MES" NUMBER(5,0), 
+	"DIA_UTIL_MES" NUMBER(5,0), 
+	"FLAG_PAG_FOR" CHAR(1 CHAR) DEFAULT 'S', 
+	"FLAG_FAT_CLI" CHAR(1 CHAR) DEFAULT 'S', 
+	"ORDEM" NUMBER(5,0)
+   ) ;

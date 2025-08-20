@@ -1,0 +1,18 @@
+--------------------------------------------------------
+--  DDL for Table ARQUIVO
+--------------------------------------------------------
+
+  CREATE TABLE "ARQUIVO" 
+   (	"ARQUIVO_ID" NUMBER(20,0), 
+	"VOLUME_ID" NUMBER(20,0), 
+	"USUARIO_ALT_ID" NUMBER(20,0), 
+	"TIPO_ARQUIVO_ID" NUMBER(20,0), 
+	"DATA_CRIACAO" DATE, 
+	"NOME_ORIGINAL" VARCHAR2(200 CHAR), 
+	"NOME_FISICO" VARCHAR2(200 CHAR), 
+	"DESCRICAO" VARCHAR2(200 CHAR), 
+	"MIME_TYPE" VARCHAR2(100 CHAR), 
+	"TAMANHO" NUMBER, 
+	"PALAVRAS_CHAVE" VARCHAR2(500 CHAR), 
+	"PALAVRAS_ARQUIVO" CLOB
+   ) ;

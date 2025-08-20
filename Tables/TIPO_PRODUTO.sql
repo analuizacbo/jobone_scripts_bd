@@ -1,0 +1,19 @@
+--------------------------------------------------------
+--  DDL for Table TIPO_PRODUTO
+--------------------------------------------------------
+
+  CREATE TABLE "TIPO_PRODUTO" 
+   (	"TIPO_PRODUTO_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"NOME" VARCHAR2(60 CHAR), 
+	"CODIGO" VARCHAR2(20 CHAR), 
+	"FLAG_ATIVO" CHAR(1 CHAR), 
+	"FLAG_SISTEMA" CHAR(1 CHAR) DEFAULT 'N', 
+	"VARIACOES" VARCHAR2(500 CHAR), 
+	"TEMPO_EXEC_INFO" NUMBER(6,2), 
+	"TEMPO_EXEC_CALC" NUMBER(6,2), 
+	"COD_EXT_PRODUTO" VARCHAR2(20 CHAR), 
+	"FLAG_TAREFA" CHAR(1 CHAR) DEFAULT 'N', 
+	"UNIDADE_FREQ" VARCHAR2(20 CHAR), 
+	"CATEGORIA_ID" NUMBER(20,0)
+   ) ;

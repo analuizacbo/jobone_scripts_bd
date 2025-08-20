@@ -1,0 +1,17 @@
+--------------------------------------------------------
+--  DDL for Table TIPO_DOC_NF
+--------------------------------------------------------
+
+  CREATE TABLE "TIPO_DOC_NF" 
+   (	"TIPO_DOC_NF_ID" NUMBER(20,0), 
+	"CODIGO" VARCHAR2(5 CHAR), 
+	"NOME" VARCHAR2(40 CHAR), 
+	"ORDEM" NUMBER(5,0), 
+	"FLAG_RET_IMPOSTO" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_TOMA_CREDITO" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_COD_VERIFIC" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_CHAVE_ACESSO" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_NF_SAIDA" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_ATIVO" CHAR(1 CHAR) DEFAULT 'S', 
+	"COD_EXT_DOC" VARCHAR2(5 CHAR)
+   ) ;

@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  DDL for Table DIA_ALOCACAO
+--------------------------------------------------------
+
+  CREATE TABLE "DIA_ALOCACAO" 
+   (	"DIA_ALOCACAO_ID" NUMBER(20,0), 
+	"USUARIO_ID" NUMBER(20,0), 
+	"DATA" DATE, 
+	"MES" NUMBER(5,0), 
+	"ANO" NUMBER(5,0), 
+	"DIA_SEMANA" VARCHAR2(5 CHAR), 
+	"HORAS_DIARIAS" NUMBER(10,2), 
+	"HORAS_TOTAL" NUMBER(10,2), 
+	"HORAS_RESERVADO" NUMBER(10,2), 
+	"HORAS_ALOCADO" NUMBER(10,2), 
+	"HORAS_AUSENCIA" NUMBER(10,2), 
+	"HORAS_OVERTIME" NUMBER(10,2), 
+	"HORAS_LIVRE" NUMBER(10,2), 
+	"FLAG_AUSENCIA_FULL" CHAR(1 CHAR) DEFAULT 'N'
+   ) ;

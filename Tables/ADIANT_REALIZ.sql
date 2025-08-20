@@ -1,0 +1,18 @@
+--------------------------------------------------------
+--  DDL for Table ADIANT_REALIZ
+--------------------------------------------------------
+
+  CREATE TABLE "ADIANT_REALIZ" 
+   (	"ADIANT_REALIZ_ID" NUMBER(20,0), 
+	"ADIANT_DESP_ID" NUMBER(20,0), 
+	"USUARIO_ID" NUMBER(20,0), 
+	"FI_BANCO_ID" NUMBER(20,0), 
+	"DATA_ENTRADA" DATE, 
+	"FORMA_ADIANT" VARCHAR2(10 CHAR), 
+	"VALOR_REALIZ" NUMBER(20,2), 
+	"NUM_AGENCIA" VARCHAR2(10 CHAR), 
+	"NUM_CONTA" VARCHAR2(20 CHAR), 
+	"TIPO_CONTA" CHAR(1 CHAR), 
+	"NOME_TITULAR" VARCHAR2(60 CHAR), 
+	"CNPJ_CPF_TITULAR" VARCHAR2(20 CHAR)
+   ) ;

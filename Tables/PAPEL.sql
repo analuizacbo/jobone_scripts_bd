@@ -1,0 +1,18 @@
+--------------------------------------------------------
+--  DDL for Table PAPEL
+--------------------------------------------------------
+
+  CREATE TABLE "PAPEL" 
+   (	"PAPEL_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"AREA_ID" NUMBER(20,0), 
+	"NOME" VARCHAR2(100 CHAR), 
+	"ORDEM" NUMBER(5,0), 
+	"FLAG_ENDER" CHAR(1 CHAR) DEFAULT 'S', 
+	"FLAG_APONTAM_FORM" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_AUTO_ENDER" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_AUTO_ENDER_OPORT" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_AUTO_ENDER_CTR" CHAR(1 CHAR) DEFAULT 'N', 
+	"FLAG_NOTIF_ENDER" CHAR(1 CHAR) DEFAULT 'S', 
+	"FLAG_ATIVO" CHAR(1 CHAR) DEFAULT 'S'
+   ) ;

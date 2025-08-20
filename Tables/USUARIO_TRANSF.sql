@@ -1,0 +1,18 @@
+--------------------------------------------------------
+--  DDL for Table USUARIO_TRANSF
+--------------------------------------------------------
+
+  CREATE TABLE "USUARIO_TRANSF" 
+   (	"USUARIO_TRANSF_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"APELIDO" VARCHAR2(500 CHAR), 
+	"NOME" VARCHAR2(500 CHAR), 
+	"CPF" VARCHAR2(500 CHAR), 
+	"EMAIL" VARCHAR2(500 CHAR), 
+	"PAPEL" VARCHAR2(500 CHAR), 
+	"LOGIN" VARCHAR2(500 CHAR), 
+	"SENHA" VARCHAR2(500 CHAR), 
+	"CARGA_STATUS" VARCHAR2(10 CHAR), 
+	"CARGA_DATA" DATE, 
+	"CARGA_MOTIVO" VARCHAR2(2000 CHAR)
+   ) ;

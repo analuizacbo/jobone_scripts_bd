@@ -1,0 +1,19 @@
+--------------------------------------------------------
+--  DDL for Table JOB_PECA
+--------------------------------------------------------
+
+  CREATE TABLE "JOB_PECA" 
+   (	"JOB_PECA_ID" NUMBER(20,0), 
+	"JOB_ID" NUMBER(20,0), 
+	"TIPO_PECA_ID" NUMBER(20,0), 
+	"DOC_REFER_ID" NUMBER(20,0), 
+	"DOC_CRIACAO_ID" NUMBER(20,0), 
+	"COMPLEMENTO" VARCHAR2(100 CHAR), 
+	"TIPO_SOLICITACAO" VARCHAR2(10 CHAR), 
+	"DATA_SOLICITACAO" DATE, 
+	"DATA_PRAZO" DATE, 
+	"ESPECIFICACAO" VARCHAR2(2000 CHAR), 
+	"OBS" VARCHAR2(2000 CHAR), 
+	"STATUS" VARCHAR2(10 CHAR), 
+	"DATA_STATUS" DATE
+   ) ;

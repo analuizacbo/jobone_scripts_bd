@@ -1,0 +1,20 @@
+--------------------------------------------------------
+--  DDL for Table CONTRATO_HORAS
+--------------------------------------------------------
+
+  CREATE TABLE "CONTRATO_HORAS" 
+   (	"CONTRATO_HORAS_ID" NUMBER(20,0), 
+	"CONTRATO_ID" NUMBER(20,0), 
+	"USUARIO_ID" NUMBER(20,0), 
+	"CARGO_ID" NUMBER(20,0), 
+	"AREA_ID" NUMBER(20,0), 
+	"NIVEL" VARCHAR2(5 CHAR), 
+	"HORAS_PLANEJ" NUMBER(10,2), 
+	"VENDA_FATOR_AJUSTE" NUMBER(10,2), 
+	"DESCRICAO" VARCHAR2(100 CHAR), 
+	"DATA" DATE, 
+	"CONTRATO_SERVICO_ID" NUMBER(20,0), 
+	"CUSTO_HORA_PDR" NUMBER(32,2), 
+	"VENDA_HORA_PDR" NUMBER(32,2), 
+	"VENDA_HORA_REV" NUMBER(32,2)
+   ) ;

@@ -1,0 +1,18 @@
+--------------------------------------------------------
+--  DDL for Table HISTORICO
+--------------------------------------------------------
+
+  CREATE TABLE "HISTORICO" 
+   (	"HISTORICO_ID" NUMBER(20,0), 
+	"EMPRESA_ID" NUMBER(20,0), 
+	"EVENTO_ID" NUMBER(20,0), 
+	"USUARIO_ID" NUMBER(20,0), 
+	"DATA_EVENTO" DATE, 
+	"OBJETO_ID" NUMBER(20,0), 
+	"IDENTIF_OBJETO" VARCHAR2(500 CHAR), 
+	"COMPLEMENTO" VARCHAR2(1000 CHAR), 
+	"JUSTIFICATIVA" VARCHAR2(500 CHAR), 
+	"FLAG_PULA_NOTIF" CHAR(1 CHAR) DEFAULT 'N', 
+	"XML_ANTES" CLOB, 
+	"XML_ATUAL" CLOB
+   ) ;
